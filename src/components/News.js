@@ -29,7 +29,7 @@ export class News extends Component {
         let parsedData = await data.json();
         console.log(parsedData);
         this.setState({
-            page: this.state.page + 1,
+            page:  this.state.page + 1,
             articles: parsedData.articles 
         })
     }
