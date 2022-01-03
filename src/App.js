@@ -28,7 +28,7 @@ export default class App extends Component {
           <LoadingBar
             color='#f11946'
             progress={this.state.progress}
-            height={3}
+            height={4}
           />
           <Switch>
 
